@@ -1,12 +1,11 @@
 import { StyleSheet, Text, View } from "react-native";
 import Counter from "./components/Counter";
+import Todo from "./components/Todo";
 
 export default function Page() {
   return (
-    <View style={styles.container}>
-      <View style={styles.main}>
-        <Counter />
-      </View>
+    <View >
+      <Todo />
     </View>
   );
 }
