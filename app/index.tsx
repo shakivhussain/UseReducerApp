@@ -1,11 +1,12 @@
 import { StyleSheet, Text, View } from "react-native";
 import Counter from "./components/Counter";
 import Todo from "./components/Todo";
+import UserProfile from "./components/UserProfile";
 
 export default function Page() {
   return (
     <View >
-      <Todo />
+      <UserProfile />
     </View>
   );
 }
